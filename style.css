@@ -1,0 +1,137 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {
+    display: grid;
+    grid-template-columns: auto;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    display: grid;
+    grid-template-columns: auto auto auto;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {
+    display: grid;
+    grid-template-columns: auto auto auto auto;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {
+    display: grid;
+    grid-template-columns: auto auto auto auto;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;}
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-main{
+    
+    width: 100%;
+    height: 50px   ;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aliceblue;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+
+.sec-nav{
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    
+}
+
+.sec-nav h5{
+    margin-left: 10px;
+}
+
+
+.sec-main{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns:auto  auto;
+    justify-content: space-around;
+}
+.box2{
+    position: relative;
+    top: 100px;
+    left: 20px;
+    transform: translate(50px 100px);
+    background-color: darkmagenta;
+    width: 500px;
+    height: 300px;
+}
+.box1{
+    position: relative;
+     top: -220px;
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+}
+
+
+.box3{
+position: absolute;
+top: 300px;
+right: 110px;
+background-color: black;
+    height: 300px;
+    width: 200px;
+
+}
+.box4{
+
+position: relative;
+left: 250px;
+
+    height: 80px;
+    width: 100px;
+    background-color: blue;
+}
+.div-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.div-right button{
+    background-color: blue;
+    width: 350px;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    color: aliceblue;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: grid;
+    color: aliceblue;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
